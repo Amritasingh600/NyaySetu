@@ -1,9 +1,9 @@
-"""Compatibility wrapper for legacy imports.
+"""Compatibility wrapper for legacy imports...........
 
 This module now simply re-exports the core intelligence utilities from
 `nyay_backend.apps.intelligence_core`. Existing scripts that imported
 `intelligence_core` from the repository root can continue to do so without
-modification.
+modification.........
 """
 
 from nyay_backend.apps.intelligence_core.intelligence_core import (  # noqa: F401
